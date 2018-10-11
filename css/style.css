@@ -1,0 +1,9 @@
+body {
+	background-color: #f8f8f8;
+}
+.mainMenu {
+	color: #0f5fcf;
+	font: bold 18px Serif;
+	text-transform: uppercase;
+	list-style-type: none;
+}
