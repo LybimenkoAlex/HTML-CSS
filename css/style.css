@@ -7,3 +7,35 @@ body {
 	text-transform: uppercase;
 	list-style-type: none;
 }
+h1, h2, h3 {
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+	background-color: #eaeaea;
+}
+strong {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+.p_op {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+.har {
+	font-weight: 600;
+	color: #0f0f0f;
+}
+input[type="text"] {
+	color: black;
+	font-weight: 400;
+	font-family: serif;
+	font-size: 14px;
+}
+.k_op {
+	border: solid 1px black;
+}
