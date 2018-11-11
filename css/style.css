@@ -19,7 +19,7 @@ strong {
 	font-style: italic;
 	line-height: 16px;
 }
-.p_op {
+.p_op {						/* подробное описание */
 	color: #484343;
 	font-size: 16px;
 	font-weight: 400;
@@ -36,6 +36,6 @@ input[type="text"] {
 	font-family: serif;
 	font-size: 14px;
 }
-.k_op {
+.k_op {						/* краткое описание */
 	border: solid 1px black;
 }
