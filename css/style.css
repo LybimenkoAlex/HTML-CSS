@@ -7,7 +7,7 @@ body {
 	text-transform: uppercase;
 	list-style-type: none;
 }
-h1, h2, h3 {
+.zagolovki {
 	color: black;
 	font-size: 18px;
 	font-weight: 400;
