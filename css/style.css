@@ -58,6 +58,7 @@ strong {
 	font-size: 14px;
 	font-weight: 600;
 	cursor: pointer; 
+	box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.5);
 }
 /*.active {
          background: #6D66FF;
@@ -67,6 +68,10 @@ strong {
  }*/
  .btn:hover, .clean:hover {
  	background: #9BC8F0;
+ }
+ .btn:active, .clean:active {
+ 	background-color: white;
+ 	color: black;
  }
 .p_form, h2, h1 {
 	color: #060084;
