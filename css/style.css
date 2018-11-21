@@ -125,4 +125,5 @@ caption {
 }
 .footer {
 	border-top: 1px solid black;
+	text-align: right;
 }
