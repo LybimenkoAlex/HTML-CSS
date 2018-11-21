@@ -1,13 +1,24 @@
 body {
 	background-color: #f8f8f8;
 }
+a:hover {
+	color: #9BC8F0;
+}
+.logo {
+	width: 200px;
+}
 .mainMenu li a, .mainMenu {
 	color: #060084;
 	font: bold 18px Serif;
 	text-transform: uppercase;
 	list-style-type: none;
+	text-decoration: none;
 }
-.opt h1, .opt h2, .opt h3 {
+.mainMenu li a:hover {
+	color: #9BC8F0;
+	text-decoration: underline;
+}
+.opt h1, .opt h2, .opt h3 {     /* заголовки в описании товаров */
 	color: black;
 	font-size: 18px;
 	font-weight: 400;
@@ -26,9 +37,17 @@ strong {
 	line-height: 24px;
 	text-align: left;
 }
+.p_op:first-letter {
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bolder;
+}
 .har {
 	font-weight: 600;
 	color: #0f0f0f;
+}
+input[type="text"] {
+	text-transform: capitalize;
 }
 .textFields {
 	border-radius: 4px;
@@ -44,7 +63,10 @@ strong {
 	color: #060084
 }
 .k_op {						/* краткое описание */
-	border: solid 1px black;
+	outline: 1px solid black;
+}
+.k_op:hover {
+	outline: none;
 }
 .btn, .clean {
 	text-align: center; 
@@ -78,4 +100,23 @@ strong {
 }
 input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder {
 	color: #B0B0B0;
+}
+.textFields[type="email"]:focus {
+	color: black;
+	background-color: lightblue;
+}
+.table_har, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+caption {
+	font-weight: bold;
+	font-size: 18px;
+}
+.firstString {
+	height: 50px;
+}
+.united {
+	text-align: center;
+	font-weight: 600;
 }
