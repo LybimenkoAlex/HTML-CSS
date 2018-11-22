@@ -5,7 +5,11 @@ a:hover {
 	color: #9BC8F0;
 }
 .logo {
+	background-image: url(../img/logo.png);
+	background-size: 200px;
 	width: 200px;
+	height: 44px;
+	background-repeat: no-repeat;
 }
 .mainMenu li a, .mainMenu {
 	color: #060084;
@@ -62,6 +66,9 @@ input[type="text"] {
 	font-size: 16px;
 	color: #060084
 }
+textarea {
+	resize: none;
+}
 .k_op {						/* краткое описание */
 	outline: 1px solid black;
 }
@@ -101,13 +108,19 @@ input[type="text"] {
 input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder {
 	color: #B0B0B0;
 }
-.textFields[type="email"]:focus {
+input:focus, textarea:focus {
+	outline: none;
+}
+.textFields:focus {
 	color: black;
 	background-color: lightblue;
 }
 .table_har, td {
 	border: 1px solid black;
 	border-collapse: collapse;
+}
+.table_har tr:nth-child(2n) {
+	background-color: lightgrey;
 }
 caption {
 	font-weight: bold;
