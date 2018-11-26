@@ -19,7 +19,7 @@ a:hover {
 	height: 44px;
 	background-repeat: no-repeat;
 	float: left;
-	margin-top: 6px;
+	margin-top: 63px;
 	margin-left: 10px;
 }
 .mainMenu {
@@ -27,9 +27,9 @@ a:hover {
 }
 .mainMenu li {
 	float: left;
-	margin-right: 5px;
+	margin-right: 10px;
 	list-style-type: none;
-	margin-top: 40px;
+	margin-top: 71px;
 	margin-left: 15px;
 }
 .mainMenu li a {
@@ -71,6 +71,9 @@ strong {
 	font-weight: 600;
 	color: #0f0f0f;
 }
+.har, .table_har {
+	clear: both;
+}
 input[type="text"] {
 	text-transform: capitalize;
 }
@@ -91,11 +94,12 @@ textarea {
 }
 .k_op {						/* краткое описание */
 	outline: 1px solid black;
+	height: 300px;
 }
 .k_op:hover {
 	outline: none;
 }
-.btn, .clean {
+.btn, .clean, .buy {
 	text-align: center; 
     padding: 8px 10px;
 	border: 1px transparent;
@@ -115,12 +119,16 @@ textarea {
  button.btn:active, button.clean:active {
      background: #6D66FF;
  }*/
- .btn:hover, .clean:hover {
+ .btn:hover, .clean:hover, .buy:hover {
  	background: #9BC8F0;
  }
- .btn:active, .clean:active {
+ .btn:active, .clean:active, .buy:active {
  	background-color: white;
  	color: black;
+ }
+ .buy {
+ 	float: right;
+ 	margin-top: 180px;
  }
 .p_form, h2, h1 {
 	color: #060084;
@@ -155,9 +163,42 @@ caption {
 }
 .header {
 	border-bottom: 1px solid black;
-	height: 60px;
+	height: 160px;
+	background-image: url(../img/f2.jpg);
 }
 .footer {
 	border-top: 1px solid black;
+	height: 50px;
+	background-color: #DADADA;
+	clear: both;
+}
+.footerRight {
 	text-align: right;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.contMap {
+	width: 100%;
+	height: 374px;
+}
+/* Товары каталога */
+.tovimg11, .tovimg21, .tovimg42 {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.tovHar {
+	clear: both;
+	margin-top: 10px;
+}
+.catBody {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.catZag {
+	width: 10%;
+	margin: 0 auto;
 }
