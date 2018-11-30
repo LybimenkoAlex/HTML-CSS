@@ -14,7 +14,7 @@ a:hover {
 }
 .logo {
 	background-image: url(../img/logo.png);
-	background-size: 200px;
+	background-size: cover;
 	width: 200px;
 	height: 44px;
 	background-repeat: no-repeat;
@@ -34,7 +34,7 @@ a:hover {
 }
 .mainMenu li a {
 	color: #060084;
-	font: bold 18px Serif;
+	font: bold 22px Serif;
 	text-transform: uppercase;
 	list-style-type: none;
 	text-decoration: none;
@@ -169,14 +169,13 @@ caption {
 .footer {
 	border-top: 1px solid black;
 	height: 50px;
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 5px;
 	background-color: #DADADA;
 	clear: both;
 }
-.footerRight {
-	text-align: right;
-	margin-right: 10px;
-	margin-top: 5px;
-}
+
 
 .contMap {
 	width: 100%;
@@ -201,4 +200,11 @@ caption {
 .catZag {
 	width: 10%;
 	margin: 0 auto;
+}
+.mainContent {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.container > h2 {
+	overflow: hidden;
 }
